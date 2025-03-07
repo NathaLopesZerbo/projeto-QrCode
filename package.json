@@ -1,0 +1,23 @@
+{
+  "name": "projeto-qrcode",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+      "build": "npx tailwindcss -i src/css/style.css -o src/css/build.css",
+      "watch": "npx tailwindcss -i src/css/style.css -o src/css/build.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathaLopesZerbo/projeto-QrCode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathaLopesZerbo/projeto-QrCode/issues"
+  },
+  "homepage": "https://github.com/NathaLopesZerbo/projeto-QrCode#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
