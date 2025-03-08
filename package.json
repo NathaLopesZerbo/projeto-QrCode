@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "npx tailwindcss -i src/css/style.css -o src/css/build.css",
-    "watch": "npx @tailwindcss/cli -i ./src/css/style.css -o ./src/css/build.css --watch"
+    "build": "npx @tailwindcss/cli -i src/css/style.css -o src/css/build.css",
+    "dev": "npx @tailwindcss/cli -i src/css/style.css -o src/css/build.css --watch"
   },
   "repository": {
     "type": "git",

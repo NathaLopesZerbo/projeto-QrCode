@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+
+@theme {
+    --font-roboto: "Roboto", sans-serif;
+    --color-fundo: #34db7a; 
+    --color-botao-qr-code: #086824;
+
+  }
+
+  @layer base {
+    .botoes {
+      @apply w-full h-[55px] rounded-md text-[0.9rem];
+    }
+  }
+  

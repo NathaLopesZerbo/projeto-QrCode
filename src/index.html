@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/build.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Projeto Qr Code</title>
 </head>
-<body>
-    <h1 class="text-6xl">Teste</h1>
+<body class="flex items-center justify-center min-h-screen bg-fundo font-roboto">
+    <div class="bg-white h-[300px] w-[500px] rounded-lg p-5 duration-300" id="container">
+        <header id="qr-header" class="text-center">
+            <h1 class="text-4xl font-bold mb-3">Gerador de QR Code</h1>
+            <p class="text-gray-500 text-[0.9rem]">Insira uma Url ou Texto, para criar um QR Code</p>
+        </header>
+        <div id="qr-form" class="my-5 mx-4">
+            <input type="text" placeholder="Digite a Url ou Texto" class="botoes border py-2 px-3">
+            <button class="botoes bg-botao-qr-code text-white text-base mt-5 cursor-pointer opacity-85 duration-200 hover:opacity-100">Gerar QR Code</button>
+        </div>
+        <div id="qr-code" class="flex justify-center mt-12 opacity-0 transition-opacity duration-300">
+            <img src="img/qrcode.png" alt="QR Code">
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
-</html> 
+</html>
