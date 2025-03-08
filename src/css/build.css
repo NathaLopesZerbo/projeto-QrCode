@@ -1908,6 +1908,51 @@
       height: 500px;
     }
   }
+  .max-md\:w-\[300px\] {
+    @media (width < 48rem) {
+      width: 300px;
+    }
+  }
+  .max-md\:w-\[400px\] {
+    @media (width < 48rem) {
+      width: 400px;
+    }
+  }
+  .max-md\:w-\[450px\] {
+    @media (width < 48rem) {
+      width: 450px;
+    }
+  }
+  .max-md\:w-\[500px\] {
+    @media (width < 48rem) {
+      width: 500px;
+    }
+  }
+  .max-md\:w-\[600px\] {
+    @media (width < 48rem) {
+      width: 600px;
+    }
+  }
+  .max-sm\:w-\[200px\] {
+    @media (width < 40rem) {
+      width: 200px;
+    }
+  }
+  .max-sm\:w-\[300px\] {
+    @media (width < 40rem) {
+      width: 300px;
+    }
+  }
+  .max-sm\:w-\[350px\] {
+    @media (width < 40rem) {
+      width: 350px;
+    }
+  }
+  .max-sm\:w-\[400px\] {
+    @media (width < 40rem) {
+      width: 400px;
+    }
+  }
 }
 @layer base {
   .botoes {

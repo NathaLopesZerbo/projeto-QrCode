@@ -9,7 +9,7 @@ function generateQrCode() {
 
   if (!qrCodeInputValue) return;
 
-  qrCodeBtn.innerText = "Gerando código...";
+  qrCodeBtn.innerText = "Gerando QR Code...";
 
 
   qrCodeImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrCodeInputValue}`;
@@ -20,7 +20,7 @@ function generateQrCode() {
     qrCodeImg.parentElement.classList.add("opacity-100");
 
     container.classList.add("h-[500px]");
-    qrCodeBtn.innerText = "Código criado!";
+    qrCodeBtn.innerText = "QR Code criado!";
   });
 }
 
