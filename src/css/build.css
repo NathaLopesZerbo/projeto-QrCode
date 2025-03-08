@@ -7,6 +7,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-500: oklch(0.637 0.237 25.331);
+    --color-purple-50: oklch(0.977 0.014 308.299);
     --color-gray-500: oklch(0.551 0.027 264.364);
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -1102,6 +1103,9 @@
   .bg-fundo {
     background-color: var(--color-fundo);
   }
+  .bg-purple-50 {
+    background-color: var(--color-purple-50);
+  }
   .bg-red-500 {
     background-color: var(--color-red-500);
   }
@@ -1903,54 +1907,14 @@
       }
     }
   }
-  .active\:h-\[500px\] {
-    &:active {
-      height: 500px;
-    }
-  }
-  .max-md\:w-\[300px\] {
-    @media (width < 48rem) {
-      width: 300px;
-    }
-  }
-  .max-md\:w-\[400px\] {
-    @media (width < 48rem) {
-      width: 400px;
-    }
-  }
   .max-md\:w-\[450px\] {
     @media (width < 48rem) {
       width: 450px;
     }
   }
-  .max-md\:w-\[500px\] {
-    @media (width < 48rem) {
-      width: 500px;
-    }
-  }
-  .max-md\:w-\[600px\] {
-    @media (width < 48rem) {
-      width: 600px;
-    }
-  }
-  .max-sm\:w-\[200px\] {
-    @media (width < 40rem) {
-      width: 200px;
-    }
-  }
-  .max-sm\:w-\[300px\] {
-    @media (width < 40rem) {
-      width: 300px;
-    }
-  }
   .max-sm\:w-\[350px\] {
     @media (width < 40rem) {
       width: 350px;
-    }
-  }
-  .max-sm\:w-\[400px\] {
-    @media (width < 40rem) {
-      width: 400px;
     }
   }
 }
